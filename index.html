@@ -1,35 +1,92 @@
 <!doctype html>
 <!-- document language -->
 <html lang="en-US">
-   <head>
-      <!-- document encoding -->
-      <meta charset="UTF-8">
-      <!-- title shown on the tab -->
-      <title>John Brady</title>
-      <!-- SEO description of the page -->
-      <meta name="description" content="Personal website of John Brady">
-      <!-- gives initial page width and zoom info to the browser -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Google Search Console verification of ownership -->
-      <meta name="google-site-verification" content="WFuF7oa_ScIBY-pT3hFuuwMteCcVeQpxT82Krt7brgI" />
-      <!-- OpenGraph required meta tags for social media scraping -->
-      <meta property="og:title" content="John Brady">
-      <meta property="og:type" content="website">
-      <!-- Photo up to 1MB in size -->
-      <meta property="og:image" content="images/JD6_9680-1MB-1500px.jpg">
-      <meta property="og:url" content="https://bradyj.com">
-      <!-- OpenGraph optional meta tags for social media scraping -->
-      <meta property="og:description" content="Personal website of John Brady">
-      <meta property="og:locale" content="en_US">
-      <!-- Firefox, Chrome, Safari, IE 11+ and Opera favicon. 196x196px -->
-      <link rel="icon" type="image/png" href="images/logo-32px.png">
-      <!-- Connect the CSS for styling the page -->
-      <link rel="stylesheet" type="text/css" href="css/homepageStyles.css">
-   </head>
-   <body>
-      <h1>Heading1</h1>
-      <h2>Heading2</h2>
-      <h3>Heading3</h3>
-      <p>Paragraph</p>
-   </body>
+  <!-- Define metadata for SEO, social media, browser integration -->
+  <head>
+    <!-- document encoding -->
+    <meta charset="utf-8">
+    <!-- title shown on the tab -->
+    <title>John Brady</title>
+    <!-- SEO description of the page -->
+    <meta name="description" content="Personal website of John Brady">
+    <!-- gives initial page width and zoom info to the browser -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Search Console verification of ownership -->
+    <meta name="google-site-verification" content="WFuF7oa_ScIBY-pT3hFuuwMteCcVeQpxT82Krt7brgI" />
+    <!-- OpenGraph required meta tags for social media scraping -->
+    <meta property="og:title" content="John Brady">
+    <meta property="og:type" content="website">
+    <!-- Photo up to 1MB in size -->
+    <meta property="og:image" content="images/JD6_9680-1MB-1500px.jpg">
+    <meta property="og:url" content="https://bradyj.com">
+    <!-- OpenGraph optional meta tags for social media scraping -->
+    <meta property="og:description" content="Personal website of John Brady">
+    <meta property="og:locale" content="en_US">
+    <!-- Firefox, Chrome, Safari, IE 11+ and Opera favicon. 196x196px -->
+    <link rel="icon" type="image/png" href="images/logo-32px.png">
+    <!-- Connect the CSS for styling the page -->
+    <link rel="stylesheet" href="css/homepage-styles.css">
+  </head>
+
+
+
+  <!-- Define the visible page content -->
+  <body class="site">
+    <!-- Define the header in an accessible manner -->
+    <header role="banner" class=" title">
+      <h1>JOHN BRADY</h1>
+    </header>
+
+    <!-- Define the page's main content in an accessible manner -->
+    <!-- Icons from [Linecons](https://designmodo.com/linecons-free/) -->
+    <!-- Logos from [Simple Icons](https://simpleicons.org/) -->
+    <main class="content">
+      <div>
+                <a href="https://www.linkedin.com/in/bradyjoh/">
+          <svg  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title>
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/bradyjoh">
+          <svg  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Github icon</title>
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+        </a>
+
+        <a href="mailto:john@bradyjo.com?subject=Hi from your website!">
+        <svg  xmlns="http://www.w3.org/2000/svg"viewBox="0 0 32 32" ><title>Email icon</title>
+          <path d="M31.543,0.16C31.377,0.053,31.188,0,31,0c-0.193,0-0.387,0.055-0.555,0.168l-30,20
+            c-0.309,0.205-0.479,0.566-0.439,0.936c0.038,0.369,0.278,0.688,0.623,0.824l7.824,3.131l3.679,6.438
+            c0.176,0.309,0.503,0.5,0.857,0.504c0.004,0,0.007,0,0.011,0c0.351,0,0.677-0.186,0.857-0.486l2.077-3.463l9.695,3.877
+            C25.748,31.977,25.873,32,26,32c0.17,0,0.338-0.043,0.49-0.129c0.264-0.148,0.445-0.408,0.496-0.707l5-30
+            C32.051,0.771,31.877,0.377,31.543,0.16z M3.136,20.777L26.311,5.326L9.461,23.363c-0.089-0.053-0.168-0.123-0.266-0.162
+            L3.136,20.777z M10.189,24.066c-0.002-0.004-0.005-0.006-0.007-0.01L29.125,3.781L12.976,28.943L10.189,24.066z M25.217,29.609
+            l-8.541-3.416c-0.203-0.08-0.414-0.107-0.623-0.119L29.205,5.686L25.217,29.609z"/>
+        </svg>
+        </a>
+
+        <a href="https://www.flickr.com/bradyjoh">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Flickr icon</title>
+            <path d="M0 12c0 3.074 2.494 5.564 5.565 5.564 3.075 0 5.569-2.49 5.569-5.564S8.641 6.436 5.565 6.436C2.495 6.436 0 8.926 0 12zm12.866 0c0 3.074 2.493 5.564 5.567 5.564C21.496 17.564 24 15.074 24 12s-2.492-5.564-5.564-5.564c-3.075 0-5.57 2.49-5.57 5.564z"/>
+          </svg>
+        </a>
+                        <a href="https://www.facebook.com/johnbradyphoto">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook icon</title>
+            <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.408.593 24 1.324 24h11.494v-9.294H9.689v-3.621h3.129V8.41c0-3.099 1.894-4.785 4.659-4.785 1.325 0 2.464.097 2.796.141v3.24h-1.921c-1.5 0-1.792.721-1.792 1.771v2.311h3.584l-.465 3.63H16.56V24h6.115c.733 0 1.325-.592 1.325-1.324V1.324C24 .593 23.408 0 22.676 0"/>
+          </svg>
+        </a>
+      </div>
+    </main>
+
+    <!-- Define the footer in an accessible manner -->
+    <footer role="contentinfo" class=" footnote">
+      &copy; 
+      <!-- Div shows year when Javascript is disabled -->
+      <span id='noscriptdate'>1337</span>
+      <!-- Javascript to remove the noJS year and replace it with the current year -->
+      <script>
+        document.getElementById('noscriptdate').innerText = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
 </html>
