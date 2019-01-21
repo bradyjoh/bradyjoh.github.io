@@ -9,6 +9,8 @@
      font-family: sans-serif;
     /*make sure all items are centered in their elements in the page*/
      text-align: center;
+     /*overrides the 8px default margin to eliminate scrolling*/
+     margin: 0;
 }
  .title {
     /*big font*/
@@ -28,6 +30,8 @@
  .footnote {
     /*small font*/
      font-size: 12px;
+     /*slight margin separates the text from the bottom of the page*/
+     margin: 10px;
 }
  a{
     /*remove underline/dash artifact from a type elements*/
