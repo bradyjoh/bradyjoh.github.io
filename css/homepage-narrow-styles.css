@@ -13,10 +13,8 @@
      margin: 0;
 }
  .title {
-    /*big font*/
-     font-size: 60px;
     /*space the letters out horizontally a little*/
-     letter-spacing: 20px;
+     letter-spacing: 10px;
      word-wrap: break-word;
 }
  .content {
@@ -43,9 +41,9 @@
 }
  svg {
     /*set initial svg size on page*/
-     width: 200px;
+     width: 50px;
     /*add padding to all sides of the svg*/
-     padding: 35px;
+     padding: 15px;
     /*make any transformations non-instantaneous with an ease*/
      transition: all 0.2s ease-in-out;
 }

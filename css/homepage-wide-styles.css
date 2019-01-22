@@ -1,0 +1,52 @@
+ .site {
+    /*set flexbox for header content footer*/
+     display: flex;
+    /*require flexbox to use all vertical height*/
+     min-height: 100vh;
+    /*flexbox will go to rows unless otherwise specified*/
+     flex-direction: column;
+    /*set the font used throughout*/
+     font-family: sans-serif;
+    /*make sure all items are centered in their elements in the page*/
+     text-align: center;
+     /*overrides the 8px default margin to eliminate scrolling*/
+     margin: 0;
+}
+ .title {
+    /*big font*/
+     font-size: 50px;
+    /*space the letters out horizontally a little*/
+     letter-spacing: 15px;
+     word-wrap: break-word;
+}
+ .content {
+    /*require content element to take up all the space possible*/
+     flex: 1;
+    /*set flexbox for hyperlinks in the element*/
+     display: flex;
+    /*set flexbox to add padding all around each link*/
+     justify-content: space-around;
+}
+ .footnote {
+    /*small font*/
+     font-size: 12px;
+     /*slight margin separates the text from the bottom of the page*/
+     margin: 10px;
+}
+ a{
+    /*remove underline/dash artifact from a type elements*/
+     text-decoration: none;
+}
+ svg:hover {
+    /*make svgs larger when the cursor is over them*/
+     transform: scale(1.5);
+}
+ svg {
+    /*set initial svg size on page*/
+     width: 150px;
+    /*add padding to all sides of the svg*/
+     padding: 35px;
+    /*make any transformations non-instantaneous with an ease*/
+     transition: all 0.2s ease-in-out;
+}
+ 
