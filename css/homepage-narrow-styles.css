@@ -41,9 +41,9 @@
 }
  svg {
     /*set initial svg size on page*/
-     width: 50px;
+     width: 40px;
     /*add padding to all sides of the svg*/
-     padding: 15px;
+     padding: 10px;
     /*make any transformations non-instantaneous with an ease*/
      transition: all 0.2s ease-in-out;
 }
